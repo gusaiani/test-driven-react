@@ -1,0 +1,8 @@
+{
+  "name": "test-driven-carousel",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gustavo Saiani <gustavo@poe.ma>",
+  "license": "MIT"
+}
