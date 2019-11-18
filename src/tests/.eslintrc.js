@@ -4,4 +4,10 @@ module.exports = {
   env: {
     browser: true,
   },
+  settings: {
+    react: {
+      version: 'detect'
+    },
+  },
+
 };
