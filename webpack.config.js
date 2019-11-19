@@ -7,8 +7,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Carousel Example',
-      chunks: ['example'],
+      title: 'Carousel Example', //(1)
+      chunks: ['example'], //(2)
     }),
   ],
   module: {

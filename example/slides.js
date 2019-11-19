@@ -11,7 +11,6 @@ const getAttribution = ({ name, username }) => (
     <a href={`https://unsplash.com/?${referralParams}`}>Unsplash</a>
   </div>
 );
-
 export default [
   {
     description: 'Seattle',
