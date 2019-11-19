@@ -5,7 +5,8 @@
     "test": "jest",
     "lint": "eslint . && prettier-eslint --list-different **/*.js",
     "format": "prettier-eslint --write **/*.js",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --config webpack.config.js --open"
   },
   "version": "1.0.0",
   "main": "index.js",
@@ -27,7 +28,8 @@
     "jest": "23.6.0",
     "react-dom": "16.4.2",
     "webpack": "4.26.1",
-    "webpack-cli": "3.1.2"
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.10"
   },
   "dependencies": {
     "eslint-plugin-jest": "22.1.2",
