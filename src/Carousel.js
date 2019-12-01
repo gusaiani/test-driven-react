@@ -27,7 +27,7 @@ export class Carousel extends React.PureComponent {
 
   handleNextClick = () => {
     const { slideIndexIncrement, slides } = this.props;
-    slideIndexIncrement(slides.length)
+    slideIndexIncrement(slides.length);
   };
 
   render() {

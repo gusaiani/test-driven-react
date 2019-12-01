@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 
 export default (Component, propName, upperBoundPropName) =>
   class ComponentWithAutoAdvance extends React.PureComponent {
-    static displayName = `AutoAdvances(${Component.displayName || Component.name})`;
+    static displayName = `AutoAdvances(${Component.displayName ||
+      Component.name})`;
 
     static propTypes = {
       [propName]: PropTypes.number.isRequired,

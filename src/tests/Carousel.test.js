@@ -5,8 +5,6 @@ import CarouselButton from '../CarouselButton';
 import CarouselSlide from '../CarouselSlide';
 
 describe('Carousel', () => {
-  let wrapper;
-
   const slides = [
     {
       imgUrl: 'https://www.example.com/slide1.png',
