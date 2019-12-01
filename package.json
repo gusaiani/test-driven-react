@@ -8,7 +8,9 @@
     "lint": "yarn lint:js && yarn lint:css",
     "format": "prettier-eslint --write **/*.js",
     "build": "webpack --config webpack.config.js",
-    "dev": "webpack-dev-server --config webpack.config.js --open"
+    "dev": "webpack-dev-server --config webpack.config.js --open",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "husky": {
     "hooks": {
@@ -44,7 +46,11 @@
     "stylelint-processor-styled-components": "1.5.1",
     "webpack": "4.26.1",
     "webpack-cli": "3.1.2",
-    "webpack-dev-server": "3.1.10"
+    "webpack-dev-server": "3.1.10",
+    "@storybook/react": "^5.2.7",
+    "@storybook/addon-actions": "^5.2.7",
+    "@storybook/addon-links": "^5.2.7",
+    "@storybook/addons": "^5.2.7"
   },
   "dependencies": {
     "eslint-plugin-jest": "22.1.2",
